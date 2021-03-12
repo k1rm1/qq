@@ -14,7 +14,7 @@ namespace LabPr {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -23,13 +23,13 @@ namespace LabPr {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -137,14 +137,14 @@ private: System::Windows::Forms::Button^ btnSelect4;
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -269,7 +269,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->tabPage1->Padding = System::Windows::Forms::Padding(3);
 			this->tabPage1->Size = System::Drawing::Size(844, 489);
 			this->tabPage1->TabIndex = 0;
-			this->tabPage1->Text = L"Задание 52";
+			this->tabPage1->Text = L"Г‡Г Г¤Г Г­ГЁГҐ 52";
 			this->tabPage1->UseVisualStyleBackColor = true;
 			// 
 			// txtR
@@ -287,7 +287,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(56, 16);
 			this->label8->TabIndex = 14;
-			this->label8->Text = L"Радиус";
+			this->label8->Text = L"ГђГ Г¤ГЁГіГ±";
 			// 
 			// textBox6
 			// 
@@ -305,7 +305,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(219, 16);
 			this->label7->TabIndex = 13;
-			this->label7->Text = L"Координаты центра окружности";
+			this->label7->Text = L"ГЉГ®Г®Г°Г¤ГЁГ­Г ГІГ» Г¶ГҐГ­ГІГ°Г  Г®ГЄГ°ГіГ¦Г­Г®Г±ГІГЁ";
 			// 
 			// label6
 			// 
@@ -314,7 +314,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(78, 16);
 			this->label6->TabIndex = 12;
-			this->label6->Text = L"Результат";
+			this->label6->Text = L"ГђГҐГ§ГіГ«ГјГІГ ГІ";
 			// 
 			// btnSave1
 			// 
@@ -322,7 +322,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnSave1->Name = L"btnSave1";
 			this->btnSave1->Size = System::Drawing::Size(148, 57);
 			this->btnSave1->TabIndex = 11;
-			this->btnSave1->Text = L"Сохранить в файл";
+			this->btnSave1->Text = L"Г‘Г®ГµГ°Г Г­ГЁГІГј Гў ГґГ Г©Г«";
 			this->btnSave1->UseVisualStyleBackColor = true;
 			this->btnSave1->Click += gcnew System::EventHandler(this, &MyForm::btnSave1_Click);
 			// 
@@ -332,7 +332,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnExecute1->Name = L"btnExecute1";
 			this->btnExecute1->Size = System::Drawing::Size(148, 66);
 			this->btnExecute1->TabIndex = 10;
-			this->btnExecute1->Text = L"Выполнить";
+			this->btnExecute1->Text = L"Г‚Г»ГЇГ®Г«Г­ГЁГІГј";
 			this->btnExecute1->UseVisualStyleBackColor = true;
 			this->btnExecute1->Click += gcnew System::EventHandler(this, &MyForm::btnExecute1_Click);
 			// 
@@ -350,7 +350,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(124, 16);
 			this->label5->TabIndex = 6;
-			this->label5->Text = L"Исходные данные";
+			this->label5->Text = L"Г€Г±ГµГ®Г¤Г­Г»ГҐ Г¤Г Г­Г­Г»ГҐ";
 			// 
 			// btnFile1
 			// 
@@ -358,7 +358,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnFile1->Name = L"btnFile1";
 			this->btnFile1->Size = System::Drawing::Size(148, 66);
 			this->btnFile1->TabIndex = 9;
-			this->btnFile1->Text = L"Ввод из файла";
+			this->btnFile1->Text = L"Г‚ГўГ®Г¤ ГЁГ§ ГґГ Г©Г«Г ";
 			this->btnFile1->UseVisualStyleBackColor = true;
 			this->btnFile1->Click += gcnew System::EventHandler(this, &MyForm::btnFile1_Click);
 			// 
@@ -368,7 +368,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnGen1->Name = L"btnGen1";
 			this->btnGen1->Size = System::Drawing::Size(148, 66);
 			this->btnGen1->TabIndex = 8;
-			this->btnGen1->Text = L"Генерация";
+			this->btnGen1->Text = L"ГѓГҐГ­ГҐГ°Г Г¶ГЁГї";
 			this->btnGen1->UseVisualStyleBackColor = true;
 			this->btnGen1->Click += gcnew System::EventHandler(this, &MyForm::btnGen1_Click);
 			// 
@@ -382,7 +382,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->groupBox2->Size = System::Drawing::Size(304, 154);
 			this->groupBox2->TabIndex = 1;
 			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"Ввод из файла";
+			this->groupBox2->Text = L"Г‚ГўГ®Г¤ ГЁГ§ ГґГ Г©Г«Г ";
 			// 
 			// txtFile1
 			// 
@@ -398,7 +398,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(43, 16);
 			this->label4->TabIndex = 6;
-			this->label4->Text = L"Файл";
+			this->label4->Text = L"Г”Г Г©Г«";
 			// 
 			// btnSelect1
 			// 
@@ -406,7 +406,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnSelect1->Name = L"btnSelect1";
 			this->btnSelect1->Size = System::Drawing::Size(263, 33);
 			this->btnSelect1->TabIndex = 0;
-			this->btnSelect1->Text = L"Выбрать файл";
+			this->btnSelect1->Text = L"Г‚Г»ГЎГ°Г ГІГј ГґГ Г©Г«";
 			this->btnSelect1->UseVisualStyleBackColor = true;
 			this->btnSelect1->Click += gcnew System::EventHandler(this, &MyForm::btnSelect1_Click);
 			// 
@@ -423,7 +423,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->groupBox1->Size = System::Drawing::Size(356, 154);
 			this->groupBox1->TabIndex = 0;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Генерация";
+			this->groupBox1->Text = L"ГѓГҐГ­ГҐГ°Г Г¶ГЁГї";
 			// 
 			// txtMax1
 			// 
@@ -453,7 +453,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(247, 16);
 			this->label3->TabIndex = 2;
-			this->label3->Text = L"Максимальное значение диапозона";
+			this->label3->Text = L"ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ Г¤ГЁГ ГЇГ®Г§Г®Г­Г ";
 			// 
 			// label2
 			// 
@@ -462,7 +462,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(241, 16);
 			this->label2->TabIndex = 1;
-			this->label2->Text = L"Минимальное значение диапозона";
+			this->label2->Text = L"ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ Г¤ГЁГ ГЇГ®Г§Г®Г­Г ";
 			// 
 			// label1
 			// 
@@ -471,7 +471,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(230, 16);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Количество элементов в массиве";
+			this->label1->Text = L"ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЅГ«ГҐГ¬ГҐГ­ГІГ®Гў Гў Г¬Г Г±Г±ГЁГўГҐ";
 			// 
 			// tabPage2
 			// 
@@ -489,7 +489,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->tabPage2->Padding = System::Windows::Forms::Padding(3);
 			this->tabPage2->Size = System::Drawing::Size(844, 489);
 			this->tabPage2->TabIndex = 1;
-			this->tabPage2->Text = L"Задание 112";
+			this->tabPage2->Text = L"Г‡Г Г¤Г Г­ГЁГҐ 112";
 			this->tabPage2->UseVisualStyleBackColor = true;
 			// 
 			// btnSave2
@@ -498,7 +498,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnSave2->Name = L"btnSave2";
 			this->btnSave2->Size = System::Drawing::Size(238, 66);
 			this->btnSave2->TabIndex = 18;
-			this->btnSave2->Text = L"Сохранить в файл";
+			this->btnSave2->Text = L"Г‘Г®ГµГ°Г Г­ГЁГІГј Гў ГґГ Г©Г«";
 			this->btnSave2->UseVisualStyleBackColor = true;
 			this->btnSave2->Click += gcnew System::EventHandler(this, &MyForm::btnSave2_Click);
 			// 
@@ -518,7 +518,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label13->Name = L"label13";
 			this->label13->Size = System::Drawing::Size(78, 16);
 			this->label13->TabIndex = 16;
-			this->label13->Text = L"Результат";
+			this->label13->Text = L"ГђГҐГ§ГіГ«ГјГІГ ГІ";
 			this->label13->Click += gcnew System::EventHandler(this, &MyForm::label13_Click);
 			// 
 			// btnExecute2
@@ -527,7 +527,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnExecute2->Name = L"btnExecute2";
 			this->btnExecute2->Size = System::Drawing::Size(238, 66);
 			this->btnExecute2->TabIndex = 15;
-			this->btnExecute2->Text = L"Выполнить";
+			this->btnExecute2->Text = L"Г‚Г»ГЇГ®Г«Г­ГЁГІГј";
 			this->btnExecute2->UseVisualStyleBackColor = true;
 			this->btnExecute2->Click += gcnew System::EventHandler(this, &MyForm::btnExecute2_Click);
 			// 
@@ -549,7 +549,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnFile2->Name = L"btnFile2";
 			this->btnFile2->Size = System::Drawing::Size(148, 66);
 			this->btnFile2->TabIndex = 13;
-			this->btnFile2->Text = L"Ввод из файла";
+			this->btnFile2->Text = L"Г‚ГўГ®Г¤ ГЁГ§ ГґГ Г©Г«Г ";
 			this->btnFile2->UseVisualStyleBackColor = true;
 			this->btnFile2->Click += gcnew System::EventHandler(this, &MyForm::btnFile2_Click);
 			// 
@@ -559,7 +559,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnGen2->Name = L"btnGen2";
 			this->btnGen2->Size = System::Drawing::Size(148, 66);
 			this->btnGen2->TabIndex = 12;
-			this->btnGen2->Text = L"Генерация";
+			this->btnGen2->Text = L"ГѓГҐГ­ГҐГ°Г Г¶ГЁГї";
 			this->btnGen2->UseVisualStyleBackColor = true;
 			this->btnGen2->Click += gcnew System::EventHandler(this, &MyForm::btnGen2_Click);
 			// 
@@ -573,7 +573,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->groupBox3->Size = System::Drawing::Size(304, 154);
 			this->groupBox3->TabIndex = 11;
 			this->groupBox3->TabStop = false;
-			this->groupBox3->Text = L"Ввод из файла";
+			this->groupBox3->Text = L"Г‚ГўГ®Г¤ ГЁГ§ ГґГ Г©Г«Г ";
 			// 
 			// txtFile2
 			// 
@@ -589,7 +589,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(43, 16);
 			this->label9->TabIndex = 6;
-			this->label9->Text = L"Файл";
+			this->label9->Text = L"Г”Г Г©Г«";
 			// 
 			// btnSelect2
 			// 
@@ -597,7 +597,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnSelect2->Name = L"btnSelect2";
 			this->btnSelect2->Size = System::Drawing::Size(263, 33);
 			this->btnSelect2->TabIndex = 0;
-			this->btnSelect2->Text = L"Выбрать файл";
+			this->btnSelect2->Text = L"Г‚Г»ГЎГ°Г ГІГј ГґГ Г©Г«";
 			this->btnSelect2->UseVisualStyleBackColor = true;
 			this->btnSelect2->Click += gcnew System::EventHandler(this, &MyForm::btnSelect2_Click);
 			// 
@@ -614,7 +614,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->groupBox4->Size = System::Drawing::Size(356, 154);
 			this->groupBox4->TabIndex = 10;
 			this->groupBox4->TabStop = false;
-			this->groupBox4->Text = L"Генерация";
+			this->groupBox4->Text = L"ГѓГҐГ­ГҐГ°Г Г¶ГЁГї";
 			// 
 			// txtMax2
 			// 
@@ -644,7 +644,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label10->Name = L"label10";
 			this->label10->Size = System::Drawing::Size(247, 16);
 			this->label10->TabIndex = 2;
-			this->label10->Text = L"Максимальное значение диапозона";
+			this->label10->Text = L"ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ Г¤ГЁГ ГЇГ®Г§Г®Г­Г ";
 			// 
 			// label11
 			// 
@@ -653,7 +653,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(241, 16);
 			this->label11->TabIndex = 1;
-			this->label11->Text = L"Минимальное значение диапозона";
+			this->label11->Text = L"ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ Г¤ГЁГ ГЇГ®Г§Г®Г­Г ";
 			// 
 			// label12
 			// 
@@ -662,7 +662,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label12->Name = L"label12";
 			this->label12->Size = System::Drawing::Size(236, 16);
 			this->label12->TabIndex = 0;
-			this->label12->Text = L"Размерность квадратной матрицы";
+			this->label12->Text = L"ГђГ Г§Г¬ГҐГ°Г­Г®Г±ГІГј ГЄГўГ Г¤Г°Г ГІГ­Г®Г© Г¬Г ГІГ°ГЁГ¶Г»";
 			// 
 			// tabPage3
 			// 
@@ -682,7 +682,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->tabPage3->Padding = System::Windows::Forms::Padding(3);
 			this->tabPage3->Size = System::Drawing::Size(844, 489);
 			this->tabPage3->TabIndex = 2;
-			this->tabPage3->Text = L"Задание 168";
+			this->tabPage3->Text = L"Г‡Г Г¤Г Г­ГЁГҐ 168";
 			this->tabPage3->UseVisualStyleBackColor = true;
 			// 
 			// label19
@@ -692,7 +692,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label19->Name = L"label19";
 			this->label19->Size = System::Drawing::Size(78, 16);
 			this->label19->TabIndex = 24;
-			this->label19->Text = L"Результат";
+			this->label19->Text = L"ГђГҐГ§ГіГ«ГјГІГ ГІ";
 			// 
 			// btnSave3
 			// 
@@ -700,7 +700,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnSave3->Name = L"btnSave3";
 			this->btnSave3->Size = System::Drawing::Size(403, 66);
 			this->btnSave3->TabIndex = 23;
-			this->btnSave3->Text = L"Сохранить в файл";
+			this->btnSave3->Text = L"Г‘Г®ГµГ°Г Г­ГЁГІГј Гў ГґГ Г©Г«";
 			this->btnSave3->UseVisualStyleBackColor = true;
 			this->btnSave3->Click += gcnew System::EventHandler(this, &MyForm::btnSave3_Click);
 			// 
@@ -710,7 +710,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnExecute3->Name = L"btnExecute3";
 			this->btnExecute3->Size = System::Drawing::Size(240, 46);
 			this->btnExecute3->TabIndex = 22;
-			this->btnExecute3->Text = L"Выполнить";
+			this->btnExecute3->Text = L"Г‚Г»ГЇГ®Г«Г­ГЁГІГј";
 			this->btnExecute3->UseVisualStyleBackColor = true;
 			this->btnExecute3->Click += gcnew System::EventHandler(this, &MyForm::btnExecute3_Click);
 			// 
@@ -750,7 +750,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label17->Name = L"label17";
 			this->label17->Size = System::Drawing::Size(124, 16);
 			this->label17->TabIndex = 18;
-			this->label17->Text = L"Исходные данные";
+			this->label17->Text = L"Г€Г±ГµГ®Г¤Г­Г»ГҐ Г¤Г Г­Г­Г»ГҐ";
 			// 
 			// btnFile3
 			// 
@@ -758,7 +758,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnFile3->Name = L"btnFile3";
 			this->btnFile3->Size = System::Drawing::Size(148, 44);
 			this->btnFile3->TabIndex = 17;
-			this->btnFile3->Text = L"Ввод из файла";
+			this->btnFile3->Text = L"Г‚ГўГ®Г¤ ГЁГ§ ГґГ Г©Г«Г ";
 			this->btnFile3->UseVisualStyleBackColor = true;
 			this->btnFile3->Click += gcnew System::EventHandler(this, &MyForm::btnFile3_Click);
 			// 
@@ -768,7 +768,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnGen3->Name = L"btnGen3";
 			this->btnGen3->Size = System::Drawing::Size(148, 44);
 			this->btnGen3->TabIndex = 16;
-			this->btnGen3->Text = L"Генерация";
+			this->btnGen3->Text = L"ГѓГҐГ­ГҐГ°Г Г¶ГЁГї";
 			this->btnGen3->UseVisualStyleBackColor = true;
 			this->btnGen3->Click += gcnew System::EventHandler(this, &MyForm::btnGen3_Click);
 			// 
@@ -782,7 +782,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->groupBox5->Size = System::Drawing::Size(304, 120);
 			this->groupBox5->TabIndex = 15;
 			this->groupBox5->TabStop = false;
-			this->groupBox5->Text = L"Ввод из файла";
+			this->groupBox5->Text = L"Г‚ГўГ®Г¤ ГЁГ§ ГґГ Г©Г«Г ";
 			// 
 			// txtFile3
 			// 
@@ -798,7 +798,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label14->Name = L"label14";
 			this->label14->Size = System::Drawing::Size(43, 16);
 			this->label14->TabIndex = 6;
-			this->label14->Text = L"Файл";
+			this->label14->Text = L"Г”Г Г©Г«";
 			// 
 			// txtSelect3
 			// 
@@ -806,7 +806,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->txtSelect3->Name = L"txtSelect3";
 			this->txtSelect3->Size = System::Drawing::Size(263, 33);
 			this->txtSelect3->TabIndex = 0;
-			this->txtSelect3->Text = L"Выбрать файл";
+			this->txtSelect3->Text = L"Г‚Г»ГЎГ°Г ГІГј ГґГ Г©Г«";
 			this->txtSelect3->UseVisualStyleBackColor = true;
 			this->txtSelect3->Click += gcnew System::EventHandler(this, &MyForm::txtSelect3_Click);
 			// 
@@ -821,7 +821,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->groupBox6->Size = System::Drawing::Size(356, 120);
 			this->groupBox6->TabIndex = 14;
 			this->groupBox6->TabStop = false;
-			this->groupBox6->Text = L"Генерация";
+			this->groupBox6->Text = L"ГѓГҐГ­ГҐГ°Г Г¶ГЁГї";
 			// 
 			// txtMax3
 			// 
@@ -844,7 +844,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label15->Name = L"label15";
 			this->label15->Size = System::Drawing::Size(247, 16);
 			this->label15->TabIndex = 2;
-			this->label15->Text = L"Максимальное значение диапозона";
+			this->label15->Text = L"ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ Г¤ГЁГ ГЇГ®Г§Г®Г­Г ";
 			// 
 			// label16
 			// 
@@ -853,7 +853,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label16->Name = L"label16";
 			this->label16->Size = System::Drawing::Size(241, 16);
 			this->label16->TabIndex = 1;
-			this->label16->Text = L"Минимальное значение диапозона";
+			this->label16->Text = L"ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ Г¤ГЁГ ГЇГ®Г§Г®Г­Г ";
 			// 
 			// tabPage4
 			// 
@@ -869,7 +869,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->tabPage4->Padding = System::Windows::Forms::Padding(3);
 			this->tabPage4->Size = System::Drawing::Size(844, 489);
 			this->tabPage4->TabIndex = 3;
-			this->tabPage4->Text = L"Задание 249";
+			this->tabPage4->Text = L"Г‡Г Г¤Г Г­ГЁГҐ 249";
 			this->tabPage4->UseVisualStyleBackColor = true;
 			// 
 			// btnSave4
@@ -878,7 +878,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnSave4->Name = L"btnSave4";
 			this->btnSave4->Size = System::Drawing::Size(455, 66);
 			this->btnSave4->TabIndex = 25;
-			this->btnSave4->Text = L"Сохранить в файл";
+			this->btnSave4->Text = L"Г‘Г®ГµГ°Г Г­ГЁГІГј Гў ГґГ Г©Г«";
 			this->btnSave4->UseVisualStyleBackColor = true;
 			this->btnSave4->Click += gcnew System::EventHandler(this, &MyForm::btnSave4_Click);
 			// 
@@ -888,7 +888,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnExecute4->Name = L"btnExecute4";
 			this->btnExecute4->Size = System::Drawing::Size(455, 62);
 			this->btnExecute4->TabIndex = 24;
-			this->btnExecute4->Text = L"Выполнить";
+			this->btnExecute4->Text = L"Г‚Г»ГЇГ®Г«Г­ГЁГІГј";
 			this->btnExecute4->UseVisualStyleBackColor = true;
 			this->btnExecute4->Click += gcnew System::EventHandler(this, &MyForm::btnExecute4_Click);
 			// 
@@ -921,7 +921,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label21->Name = L"label21";
 			this->label21->Size = System::Drawing::Size(118, 16);
 			this->label21->TabIndex = 20;
-			this->label21->Text = L"Исходная строка";
+			this->label21->Text = L"Г€Г±ГµГ®Г¤Г­Г Гї Г±ГІГ°Г®ГЄГ ";
 			// 
 			// btnFile4
 			// 
@@ -929,7 +929,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnFile4->Name = L"btnFile4";
 			this->btnFile4->Size = System::Drawing::Size(148, 120);
 			this->btnFile4->TabIndex = 19;
-			this->btnFile4->Text = L"Ввод из файла";
+			this->btnFile4->Text = L"Г‚ГўГ®Г¤ ГЁГ§ ГґГ Г©Г«Г ";
 			this->btnFile4->UseVisualStyleBackColor = true;
 			this->btnFile4->Click += gcnew System::EventHandler(this, &MyForm::btnFile4_Click);
 			// 
@@ -943,7 +943,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->groupBox7->Size = System::Drawing::Size(304, 120);
 			this->groupBox7->TabIndex = 18;
 			this->groupBox7->TabStop = false;
-			this->groupBox7->Text = L"Ввод из файла";
+			this->groupBox7->Text = L"Г‚ГўГ®Г¤ ГЁГ§ ГґГ Г©Г«Г ";
 			// 
 			// txtFile4
 			// 
@@ -959,7 +959,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->label20->Name = L"label20";
 			this->label20->Size = System::Drawing::Size(43, 16);
 			this->label20->TabIndex = 6;
-			this->label20->Text = L"Файл";
+			this->label20->Text = L"Г”Г Г©Г«";
 			// 
 			// btnSelect4
 			// 
@@ -967,7 +967,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->btnSelect4->Name = L"btnSelect4";
 			this->btnSelect4->Size = System::Drawing::Size(263, 33);
 			this->btnSelect4->TabIndex = 0;
-			this->btnSelect4->Text = L"Выбрать файл";
+			this->btnSelect4->Text = L"Г‚Г»ГЎГ°Г ГІГј ГґГ Г©Г«";
 			this->btnSelect4->UseVisualStyleBackColor = true;
 			this->btnSelect4->Click += gcnew System::EventHandler(this, &MyForm::btnSelect4_Click);
 			// 
@@ -981,7 +981,7 @@ private: System::Windows::Forms::Button^ btnSelect4;
 			this->MaximizeBox = false;
 			this->MinimizeBox = false;
 			this->Name = L"MyForm";
-			this->Text = L"Индивидульные задания";
+			this->Text = L"Г€Г­Г¤ГЁГўГЁГ¤ГіГ«ГјГ­Г»ГҐ Г§Г Г¤Г Г­ГЁГї";
 			this->tabControl1->ResumeLayout(false);
 			this->tabPage1->ResumeLayout(false);
 			this->tabPage1->PerformLayout();
@@ -1012,11 +1012,11 @@ private: System::Windows::Forms::Button^ btnSelect4;
 	private: System::Void btnGen1_Click(System::Object^ sender, System::EventArgs^ e) {
 		txtMas->Text = "";
 		if(txtCount1->Text == "" || txtMin1->Text == "" || txtMax1->Text == "")
-			MessageBox::Show("Проверьте корректность ввода!", "Внимание", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+			MessageBox::Show("ГЏГ°Г®ГўГҐГ°ГјГІГҐ ГЄГ®Г°Г°ГҐГЄГІГ­Г®Г±ГІГј ГўГўГ®Г¤Г !", "Г‚Г­ГЁГ¬Г Г­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 		int count = Convert::ToInt32(txtCount1->Text);
 		if (count % 2 != 0)
 		{
-			MessageBox::Show("Количество эллементов в массиве должно быть кратно 2-м!", "Внимание", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+			MessageBox::Show("ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЅГ«Г«ГҐГ¬ГҐГ­ГІГ®Гў Гў Г¬Г Г±Г±ГЁГўГҐ Г¤Г®Г«Г¦Г­Г® ГЎГ»ГІГј ГЄГ°Г ГІГ­Г® 2-Г¬!", "Г‚Г­ГЁГ¬Г Г­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 		}
 		else
 		{
@@ -1031,9 +1031,9 @@ private: System::Windows::Forms::Button^ btnSelect4;
 	}
 private: System::Void btnSelect1_Click(System::Object^ sender, System::EventArgs^ e) {
 	OpenFileDialog^ opFileD = gcnew OpenFileDialog;
-	opFileD->Title = "Выбор файла";
+	opFileD->Title = "Г‚Г»ГЎГ®Г° ГґГ Г©Г«Г ";
 	opFileD->InitialDirectory = "d:\\";
-	opFileD->Filter = "Текстовые файлы (*.txt)|*.txt";
+	opFileD->Filter = "Г’ГҐГЄГ±ГІГ®ГўГ»ГҐ ГґГ Г©Г«Г» (*.txt)|*.txt";
 	opFileD->ShowReadOnly = false;
 	opFileD->RestoreDirectory = true;
 
@@ -1044,7 +1044,7 @@ private: System::Void btnSelect1_Click(System::Object^ sender, System::EventArgs
 }
 private: System::Void btnFile1_Click(System::Object^ sender, System::EventArgs^ e) {
 	if(txtFile1->Text == "")
-		MessageBox::Show("Требуется выбрать файл!", "Внимание", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+		MessageBox::Show("Г’Г°ГҐГЎГіГҐГІГ±Гї ГўГ»ГЎГ°Г ГІГј ГґГ Г©Г«!", "Г‚Г­ГЁГ¬Г Г­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 	txtMas->Text = System::IO::File::ReadAllText(txtFile1->Text);
 }
 private: System::Void btnExecute1_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -1058,7 +1058,7 @@ private: System::Void btnExecute1_Click(System::Object^ sender, System::EventArg
 			count++;
 		}
 	if(count%2==1)
-		MessageBox::Show("Количество эллементов в массиве должно быть кратно 2-м!", "Внимание", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+		MessageBox::Show("ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЅГ«Г«ГҐГ¬ГҐГ­ГІГ®Гў Гў Г¬Г Г±Г±ГЁГўГҐ Г¤Г®Г«Г¦Г­Г® ГЎГ»ГІГј ГЄГ°Г ГІГ­Г® 2-Г¬!", "Г‚Г­ГЁГ¬Г Г­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 	double rMax = 0;
 	for (int i = 0; i+1 < count; i += 2)
 	{
@@ -1072,20 +1072,20 @@ private: System::Void btnExecute1_Click(System::Object^ sender, System::EventArg
 }
 private: System::Void btnSave1_Click(System::Object^ sender, System::EventArgs^ e) {
 	OpenFileDialog^ opFileD = gcnew OpenFileDialog;
-	opFileD->Title = "Выбор файла";
+	opFileD->Title = "Г‚Г»ГЎГ®Г° ГґГ Г©Г«Г ";
 	opFileD->InitialDirectory = "d:\\";
-	opFileD->Filter = "Текстовые файлы (*.txt)|*.txt";
+	opFileD->Filter = "Г’ГҐГЄГ±ГІГ®ГўГ»ГҐ ГґГ Г©Г«Г» (*.txt)|*.txt";
 	opFileD->ShowReadOnly = false;
 	opFileD->RestoreDirectory = true;
 
 
 	if (opFileD->ShowDialog() == System::Windows::Forms::DialogResult::OK)
-		System::IO::File::WriteAllText(opFileD->FileName, "Координаты в начале координат, R = "+txtR->Text);
+		System::IO::File::WriteAllText(opFileD->FileName, "ГЉГ®Г®Г°Г¤ГЁГ­Г ГІГ» Гў Г­Г Г·Г Г«ГҐ ГЄГ®Г®Г°Г¤ГЁГ­Г ГІ, R = "+txtR->Text);
 }
 private: System::Void btnGen2_Click(System::Object^ sender, System::EventArgs^ e) {
 	txtMatr->Text = "";
 	if (txtCount2->Text == "" || txtMin2->Text == "" || txtMax2->Text == "")
-		MessageBox::Show("Проверьте корректность ввода!", "Внимание", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+		MessageBox::Show("ГЏГ°Г®ГўГҐГ°ГјГІГҐ ГЄГ®Г°Г°ГҐГЄГІГ­Г®Г±ГІГј ГўГўГ®Г¤Г !", "Г‚Г­ГЁГ¬Г Г­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 	
 	int count = Convert::ToInt32(txtCount2->Text);
 	int max = Convert::ToInt32(txtMax2->Text);
@@ -1100,9 +1100,9 @@ private: System::Void btnGen2_Click(System::Object^ sender, System::EventArgs^ e
 }
 private: System::Void btnSelect2_Click(System::Object^ sender, System::EventArgs^ e) {
 	OpenFileDialog^ opFileD = gcnew OpenFileDialog;
-	opFileD->Title = "Выбор файла";
+	opFileD->Title = "Г‚Г»ГЎГ®Г° ГґГ Г©Г«Г ";
 	opFileD->InitialDirectory = "d:\\";
-	opFileD->Filter = "Текстовые файлы (*.txt)|*.txt";
+	opFileD->Filter = "Г’ГҐГЄГ±ГІГ®ГўГ»ГҐ ГґГ Г©Г«Г» (*.txt)|*.txt";
 	opFileD->ShowReadOnly = false;
 	opFileD->RestoreDirectory = true;
 
@@ -1113,7 +1113,7 @@ private: System::Void btnSelect2_Click(System::Object^ sender, System::EventArgs
 }
 private: System::Void btnFile2_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (txtFile2->Text == "")
-		MessageBox::Show("Требуется выбрать файл!", "Внимание", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+		MessageBox::Show("Г’Г°ГҐГЎГіГҐГІГ±Гї ГўГ»ГЎГ°Г ГІГј ГґГ Г©Г«!", "Г‚Г­ГЁГ¬Г Г­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 	txtMatr->Text = System::IO::File::ReadAllText(txtFile2->Text);
 }
 private: System::Void label13_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -1122,9 +1122,9 @@ private: System::Void textBox1_TextChanged(System::Object^ sender, System::Event
 }
 private: System::Void btnSave2_Click(System::Object^ sender, System::EventArgs^ e) {
 	OpenFileDialog^ opFileD = gcnew OpenFileDialog;
-	opFileD->Title = "Выбор файла";
+	opFileD->Title = "Г‚Г»ГЎГ®Г° ГґГ Г©Г«Г ";
 	opFileD->InitialDirectory = "d:\\";
-	opFileD->Filter = "Текстовые файлы (*.txt)|*.txt";
+	opFileD->Filter = "Г’ГҐГЄГ±ГІГ®ГўГ»ГҐ ГґГ Г©Г«Г» (*.txt)|*.txt";
 	opFileD->ShowReadOnly = false;
 	opFileD->RestoreDirectory = true;
 
@@ -1134,7 +1134,7 @@ private: System::Void btnSave2_Click(System::Object^ sender, System::EventArgs^ 
 }
 private: System::Void btnExecute2_Click(System::Object^ sender, System::EventArgs^ e) {
 	if(txtMatr->Text == "")
-		MessageBox::Show("Требуется создать или ввести матрицу!", "Внимание", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+		MessageBox::Show("Г’Г°ГҐГЎГіГҐГІГ±Гї Г±Г®Г§Г¤Г ГІГј ГЁГ«ГЁ ГўГўГҐГ±ГІГЁ Г¬Г ГІГ°ГЁГ¶Гі!", "Г‚Г­ГЁГ¬Г Г­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 	array<double, 2>^ mas = gcnew array<double, 2>(100,100);
 	int i = 0, j = 0, jCount = 0;
 	array<String^>^ str = txtMatr->Text->Split('\n');
@@ -1149,12 +1149,16 @@ private: System::Void btnExecute2_Click(System::Object^ sender, System::EventArg
 				j++;
 			}
 		}
-		i++;
-		jCount = j;
+		if(j>0){
+			i++;
+		}
+		if(j>jcount){
+			jCount = j;
+		}
 		j = 0;
 	}
 	if(i!=jCount)
-		MessageBox::Show("Матрица["+i+","+jCount+"] не квадратная!","Внимание", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+		MessageBox::Show("ГЊГ ГІГ°ГЁГ¶Г ["+i+","+jCount+"] Г­ГҐ ГЄГўГ Г¤Г°Г ГІГ­Г Гї!","Г‚Г­ГЁГ¬Г Г­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 	else
 	{
 		int counter = i;
@@ -1162,16 +1166,16 @@ private: System::Void btnExecute2_Click(System::Object^ sender, System::EventArg
 			for (int j = 0; j < i; j++)
 				if (mas[i, j] != mas[j, i])
 				{
-					txtResult2->Text = "Матрица не симметричная!";
+					txtResult2->Text = "ГЊГ ГІГ°ГЁГ¶Г  Г­ГҐ Г±ГЁГ¬Г¬ГҐГІГ°ГЁГ·Г­Г Гї!";
 					return;
 				}
-		txtResult2->Text = "Матрица симметричная!";
+		txtResult2->Text = "ГЊГ ГІГ°ГЁГ¶Г  Г±ГЁГ¬Г¬ГҐГІГ°ГЁГ·Г­Г Гї!";
 	}
 }
 private: System::Void btnGen3_Click(System::Object^ sender, System::EventArgs^ e) {
 	txtN->Text = "";
 	if (txtMin3->Text == "" || txtMax3->Text == "")
-		MessageBox::Show("Проверьте корректность ввода!", "Внимание", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+		MessageBox::Show("ГЏГ°Г®ГўГҐГ°ГјГІГҐ ГЄГ®Г°Г°ГҐГЄГІГ­Г®Г±ГІГј ГўГўГ®Г¤Г !", "Г‚Г­ГЁГ¬Г Г­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 
 	int max = Convert::ToInt32(txtMax1->Text);
 	int min = Convert::ToInt32(txtMin1->Text);
@@ -1181,9 +1185,9 @@ private: System::Void btnGen3_Click(System::Object^ sender, System::EventArgs^ e
 
 private: System::Void txtSelect3_Click(System::Object^ sender, System::EventArgs^ e) {
 	OpenFileDialog^ opFileD = gcnew OpenFileDialog;
-	opFileD->Title = "Выбор файла";
+	opFileD->Title = "Г‚Г»ГЎГ®Г° ГґГ Г©Г«Г ";
 	opFileD->InitialDirectory = "d:\\";
-	opFileD->Filter = "Текстовые файлы (*.txt)|*.txt";
+	opFileD->Filter = "Г’ГҐГЄГ±ГІГ®ГўГ»ГҐ ГґГ Г©Г«Г» (*.txt)|*.txt";
 	opFileD->ShowReadOnly = false;
 	opFileD->RestoreDirectory = true;
 
@@ -1195,14 +1199,14 @@ private: System::Void txtSelect3_Click(System::Object^ sender, System::EventArgs
 }
 private: System::Void btnFile3_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (txtFile3->Text == "")
-		MessageBox::Show("Требуется выбрать файл!", "Внимание", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+		MessageBox::Show("Г’Г°ГҐГЎГіГҐГІГ±Гї ГўГ»ГЎГ°Г ГІГј ГґГ Г©Г«!", "Г‚Г­ГЁГ¬Г Г­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 	txtMatr->Text = System::IO::File::ReadAllText(txtFile3->Text);
 }
 private: System::Void btnSave3_Click(System::Object^ sender, System::EventArgs^ e) {
 	OpenFileDialog^ opFileD = gcnew OpenFileDialog;
-	opFileD->Title = "Выбор файла";
+	opFileD->Title = "Г‚Г»ГЎГ®Г° ГґГ Г©Г«Г ";
 	opFileD->InitialDirectory = "d:\\";
-	opFileD->Filter = "Текстовые файлы (*.txt)|*.txt";
+	opFileD->Filter = "Г’ГҐГЄГ±ГІГ®ГўГ»ГҐ ГґГ Г©Г«Г» (*.txt)|*.txt";
 	opFileD->ShowReadOnly = false;
 	opFileD->RestoreDirectory = true;
 
@@ -1211,7 +1215,7 @@ private: System::Void btnSave3_Click(System::Object^ sender, System::EventArgs^ 
 		System::IO::File::WriteAllText(opFileD->FileName, txtResult3->Text);
 }
 private: System::Void btnExecute3_Click(System::Object^ sender, System::EventArgs^ e) {
-	txtResult3->Text = "  #    Значение"+ System::Environment::NewLine;;
+	txtResult3->Text = "  #    Г‡Г­Г Г·ГҐГ­ГЁГҐ"+ System::Environment::NewLine;;
 	int n = Convert::ToInt32(txtN->Text);
 	int sum = 0;
 	for(int i=1;i<=n;i++)
@@ -1220,14 +1224,14 @@ private: System::Void btnExecute3_Click(System::Object^ sender, System::EventArg
 
 private: System::Void btnFile4_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (txtFile4->Text == "")
-		MessageBox::Show("Требуется выбрать файл!", "Внимание", MessageBoxButtons::OK, MessageBoxIcon::Warning);
+		MessageBox::Show("Г’Г°ГҐГЎГіГҐГІГ±Гї ГўГ»ГЎГ°Г ГІГј ГґГ Г©Г«!", "Г‚Г­ГЁГ¬Г Г­ГЁГҐ", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 	txtMatr->Text = System::IO::File::ReadAllText(txtFile4->Text);
 }
 private: System::Void btnSelect4_Click(System::Object^ sender, System::EventArgs^ e) {
 	OpenFileDialog^ opFileD = gcnew OpenFileDialog;
-	opFileD->Title = "Выбор файла";
+	opFileD->Title = "Г‚Г»ГЎГ®Г° ГґГ Г©Г«Г ";
 	opFileD->InitialDirectory = "d:\\";
-	opFileD->Filter = "Текстовые файлы (*.txt)|*.txt";
+	opFileD->Filter = "Г’ГҐГЄГ±ГІГ®ГўГ»ГҐ ГґГ Г©Г«Г» (*.txt)|*.txt";
 	opFileD->ShowReadOnly = false;
 	opFileD->RestoreDirectory = true;
 
@@ -1238,9 +1242,9 @@ private: System::Void btnSelect4_Click(System::Object^ sender, System::EventArgs
 }
 private: System::Void btnSave4_Click(System::Object^ sender, System::EventArgs^ e) {
 	OpenFileDialog^ opFileD = gcnew OpenFileDialog;
-	opFileD->Title = "Выбор файла";
+	opFileD->Title = "Г‚Г»ГЎГ®Г° ГґГ Г©Г«Г ";
 	opFileD->InitialDirectory = "d:\\";
-	opFileD->Filter = "Текстовые файлы (*.txt)|*.txt";
+	opFileD->Filter = "Г’ГҐГЄГ±ГІГ®ГўГ»ГҐ ГґГ Г©Г«Г» (*.txt)|*.txt";
 	opFileD->ShowReadOnly = false;
 	opFileD->RestoreDirectory = true;
 
